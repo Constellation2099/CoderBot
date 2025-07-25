@@ -1,7 +1,7 @@
 
 import google.generativeai as genai
 from utils import strip_code_fence
-genai.configure(api_key="AIzaSyB1lEOunVZHFS3D7tTpQAVG_B7oietpc_E")
+genai.configure(api_key="")
 model = genai.GenerativeModel(model_name="gemini-1.5-flash")
 def debug_code(task_prompt: str, feedback_summary: str, language: str) -> str:
     """
